@@ -6,7 +6,7 @@
   <title>Artem.dev — сайти для малого бізнесу</title>
   <meta name="description" content="Односторінкові сайти для кафе, залів, салонів. UA + EN, опційно RU. Власний домен, панель керування. Дніпро.">
   <meta property="og:title" content="Artem.dev — веб-розробник">
-  <meta property="og:description" content="Швидкий напів-кастом: готовий шаблон під ваш бренд ~15 000 грн. Доробки — індивідуально.">
+  <meta property="og:description" content="Швидкий напів-кастом: готовий шаблон ~15 000 грн. Доробки — індивідуально.">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,15 +17,22 @@
   <header class="header">
     <div class="container header__inner">
       <a class="logo" href="#top">Artem<span class="logo__dot">.</span>dev</a>
-      <nav class="nav" id="nav" aria-label="Головна навігація">
-        <a href="#works">Приклади</a>
-        <a href="#how">Як це працює</a>
-        <a href="#cms">Адмінка</a>
-        <a href="#packages">Ціна</a>
-        <a href="#contact">Контакт</a>
+      <nav class="nav" id="nav" data-i18n-aria="nav.aria" aria-label="Головна навігація">
+        <a href="#works" data-i18n="nav.works">Приклади</a>
+        <a href="#how" data-i18n="nav.how">Як це працює</a>
+        <a href="#cms" data-i18n="nav.cms">Адмінка</a>
+        <a href="#packages" data-i18n="nav.price">Ціна</a>
+        <a href="#contact" data-i18n="nav.contact">Контакт</a>
       </nav>
-      <a class="btn btn--primary header__cta" href="#contact">Написати</a>
-      <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Меню">
+      <div class="header__actions">
+        <div class="lang-switch" role="group" data-i18n-aria="nav.langGroup" aria-label="Мова сайту">
+          <button class="lang-switch__btn is-active" type="button" data-lang="uk" aria-pressed="true">UA</button>
+          <button class="lang-switch__btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
+          <button class="lang-switch__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn btn--primary header__cta" href="#contact" data-i18n="nav.write">Написати</a>
+      </div>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav" data-i18n-aria="nav.menu" aria-label="Меню">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -35,36 +42,45 @@
     <section class="hero">
       <div class="container hero__grid">
         <div class="hero__content">
-          <p class="eyebrow">Веб-розробник · Дніпро</p>
-          <h1>Сайти для малого бізнесу — швидко, сучасно, з панеллю керування</h1>
-          <p class="hero__lead">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Веб-розробник · Дніпро</p>
+          <h1 data-i18n="hero.title">Сайти для малого бізнесу — швидко, сучасно, з панеллю керування</h1>
+          <p class="hero__lead" data-i18n="hero.lead">
             Роблю односторінкові сайти-візитки для кафе, залів, салонів та інших локальних бізнесів.
             Базово — українська та англійська; російську або іншу мову підключу за потреби.
             Ви самі змінюєте ціни та тексти через адмінку — без програміста.
           </p>
           <div class="hero__actions">
-            <a class="btn btn--primary" href="#works">Подивитись приклади</a>
-            <a class="btn btn--ghost" href="#packages">Ціна та умови</a>
+            <a class="btn btn--primary" href="#works" data-i18n="hero.ctaWorks">Подивитись приклади</a>
+            <a class="btn btn--ghost" href="#packages" data-i18n="hero.ctaPrice">Ціна та умови</a>
           </div>
           <ul class="hero__stats">
-            <li><strong>5–7 днів</strong><span>типовий термін</span></li>
-            <li><strong>UA + EN</strong><span>+ RU за домовленістю</span></li>
-            <li><strong>~15 000 грн</strong><span>базовий шаблон</span></li>
+            <li>
+              <strong data-i18n="hero.statTime">5–7 днів</strong>
+              <span data-i18n="hero.statTimeLabel">типовий термін</span>
+            </li>
+            <li>
+              <strong data-i18n="hero.statLang">UA + EN</strong>
+              <span data-i18n="hero.statLangLabel">+ RU за домовленістю</span>
+            </li>
+            <li>
+              <strong data-i18n="hero.statPrice">~15 000 грн</strong>
+              <span data-i18n="hero.statPriceLabel">базовий шаблон</span>
+            </li>
           </ul>
         </div>
         <div class="hero__card">
-          <p class="hero__card-label">Живі демо</p>
+          <p class="hero__card-label" data-i18n="hero.demos">Живі демо</p>
           <a class="demo-link" href="https://lyr1cu.github.io/Zerno/" target="_blank" rel="noopener">
-            <span class="demo-link__tag">Кав'ярня</span>
+            <span class="demo-link__tag" data-i18n="hero.demoCafe">Кав'ярня</span>
             <strong>Zerno</strong>
             <span class="demo-link__arrow" aria-hidden="true">→</span>
           </a>
           <a class="demo-link" href="https://lyr1cu.github.io/Power-Gym/" target="_blank" rel="noopener">
-            <span class="demo-link__tag">Тренажерний зал</span>
+            <span class="demo-link__tag" data-i18n="hero.demoGym">Тренажерний зал</span>
             <strong>Power Gym</strong>
             <span class="demo-link__arrow" aria-hidden="true">→</span>
           </a>
-          <p class="hero__card-note">Обидва — реальні робочі сайти з адмінкою, не макети.</p>
+          <p class="hero__card-note" data-i18n="hero.demosNote">Обидва — реальні робочі сайти з адмінкою, не макети.</p>
         </div>
       </div>
     </section>
@@ -72,44 +88,44 @@
     <section class="section" id="works">
       <div class="container">
         <div class="section__head">
-          <h2>Приклади робіт</h2>
-          <p>Одна базова структура — різний бренд, контент і палітра. Так само зроблю під ваш бізнес.</p>
+          <h2 data-i18n="works.title">Приклади робіт</h2>
+          <p data-i18n="works.subtitle">Одна базова структура — різний бренд, контент і палітра. Так само зроблю під ваш бізнес.</p>
         </div>
         <div class="works">
           <article class="work-card">
             <div class="work-card__preview work-card__preview--zerno">
-              <span class="work-card__badge">Демо · Кав'ярня</span>
+              <span class="work-card__badge" data-i18n="works.zernoBadge">Демо · Кав'ярня</span>
             </div>
             <div class="work-card__body">
               <h3>Zerno</h3>
-              <p>Меню з категоріями, галерея, відгуки, форма заявки, карта. Тепла кав'ярнева естетика.</p>
+              <p data-i18n="works.zernoDesc">Меню з категоріями, галерея, відгуки, форма заявки, карта. Тепла кав'ярнева естетика.</p>
               <ul class="tags">
                 <li>One-page</li>
                 <li>Decap CMS</li>
-                <li>Анімації</li>
+                <li data-i18n="works.tagAnim">Анімації</li>
               </ul>
               <div class="work-card__links">
-                <a class="btn btn--small btn--primary" href="https://lyr1cu.github.io/Zerno/" target="_blank" rel="noopener">Відкрити сайт</a>
-                <a class="btn btn--small btn--ghost" href="https://lyr1cu.github.io/Zerno/admin/" target="_blank" rel="noopener">Адмінка</a>
+                <a class="btn btn--small btn--primary" href="https://lyr1cu.github.io/Zerno/" target="_blank" rel="noopener" data-i18n="works.openSite">Відкрити сайт</a>
+                <a class="btn btn--small btn--ghost" href="https://lyr1cu.github.io/Zerno/admin/" target="_blank" rel="noopener" data-i18n="works.admin">Адмінка</a>
               </div>
             </div>
           </article>
 
           <article class="work-card">
             <div class="work-card__preview work-card__preview--gym">
-              <span class="work-card__badge">Демо · Зал</span>
+              <span class="work-card__badge" data-i18n="works.gymBadge">Демо · Зал</span>
             </div>
             <div class="work-card__body">
               <h3>Power Gym</h3>
-              <p>Позиції меню, тренери у вкладках, напрямки, графік роботи. Графіт + жовтий акцент.</p>
+              <p data-i18n="works.gymDesc">Позиції меню, тренери у вкладках, напрямки, графік роботи. Графіт + жовтий акцент.</p>
               <ul class="tags">
                 <li>One-page</li>
                 <li>Decap CMS</li>
-                <li>Вкладки</li>
+                <li data-i18n="works.tagTabs">Вкладки</li>
               </ul>
               <div class="work-card__links">
-                <a class="btn btn--small btn--primary" href="https://lyr1cu.github.io/Power-Gym/" target="_blank" rel="noopener">Відкрити сайт</a>
-                <a class="btn btn--small btn--ghost" href="https://lyr1cu.github.io/Power-Gym/admin/" target="_blank" rel="noopener">Адмінка</a>
+                <a class="btn btn--small btn--primary" href="https://lyr1cu.github.io/Power-Gym/" target="_blank" rel="noopener" data-i18n="works.openSite">Відкрити сайт</a>
+                <a class="btn btn--small btn--ghost" href="https://lyr1cu.github.io/Power-Gym/admin/" target="_blank" rel="noopener" data-i18n="works.admin">Адмінка</a>
               </div>
             </div>
           </article>
@@ -120,29 +136,29 @@
     <section class="section section--alt" id="how">
       <div class="container">
         <div class="section__head">
-          <h2>Як це працює</h2>
-          <p>Не «шаблон з інтернету», а швидкий напів-кастом: готова архітектура + ваш бренд за кілька днів.</p>
+          <h2 data-i18n="how.title">Як це працює</h2>
+          <p data-i18n="how.subtitle">Не «шаблон з інтернету», а швидкий напів-кастом: готова архітектура + ваш бренд за кілька днів.</p>
         </div>
         <ol class="steps">
           <li>
             <span class="steps__num">01</span>
-            <h3>Бриф</h3>
-            <p>Ви надсилаєте назву, контакти, фото (або я підберу), побажання по кольорах. Фіксуємо обсяг письмово.</p>
+            <h3 data-i18n="how.step1Title">Бриф</h3>
+            <p data-i18n="how.step1Text">Ви надсилаєте назву, контакти, фото (або я підберу), побажання по кольорах. Фіксуємо обсяг письмово.</p>
           </li>
           <li>
             <span class="steps__num">02</span>
-            <h3>Збірка</h3>
-            <p>На базі перевіреної структури збираю сайт під вашу нішу: тексти, ваша палітра, зображення, мови.</p>
+            <h3 data-i18n="how.step2Title">Збірка</h3>
+            <p data-i18n="how.step2Text">На базі перевіреної структури збираю сайт під вашу нішу: тексти, ваша палітра, зображення, мови.</p>
           </li>
           <li>
             <span class="steps__num">03</span>
-            <h3>Деплой + адмінка</h3>
-            <p>Публікую на ваш домен (хостинг/VPS), підключаю панель керування. Ви отримуєте посилання та доступ.</p>
+            <h3 data-i18n="how.step3Title">Деплой + адмінка</h3>
+            <p data-i18n="how.step3Text">Публікую на ваш домен (хостинг/VPS), підключаю панель керування. Ви отримуєте посилання та доступ.</p>
           </li>
           <li>
             <span class="steps__num">04</span>
-            <h3>Навчання</h3>
-            <p>15 хвилин: показую, як міняти ціни, фото та тексти в адмінці.</p>
+            <h3 data-i18n="how.step4Title">Навчання</h3>
+            <p data-i18n="how.step4Text">15 хвилин: показую, як міняти ціни, фото та тексти в адмінці.</p>
           </li>
         </ol>
       </div>
@@ -152,32 +168,17 @@
       <div class="container cms-grid">
         <div>
           <div class="section__head section__head--left">
-            <h2>Що ви змінюєте самі</h2>
-            <p>Через адмінку (вхід через GitHub). Зміни з'являються на сайті за 1–2 хвилини.</p>
+            <h2 data-i18n="cms.yesTitle">Що ви змінюєте самі</h2>
+            <p data-i18n="cms.yesSubtitle">Через адмінку (вхід через GitHub). Зміни з'являються на сайті за 1–2 хвилини.</p>
           </div>
-          <ul class="check-list check-list--yes">
-            <li>Ціни, назви та описи позицій у меню / асортименті</li>
-            <li>Заголовки та підзаголовки секцій, що доступні в адмінці</li>
-            <li>Відгуки клієнтів (додати, редагувати, видалити)</li>
-            <li>Фото в галереї та завантаження нових зображень</li>
-            <li>Контакти: телефон, адреса, графік, соцмережі</li>
-            <li>Координати на карті</li>
-          </ul>
+          <ul class="check-list check-list--yes" data-i18n-list="cms.yes"></ul>
         </div>
         <div>
           <div class="section__head section__head--left">
-            <h2>Що роблю я (не в адмінці)</h2>
-            <p>Ціна рахується індивідуально після брифу — залежить від обсягу.</p>
+            <h2 data-i18n="cms.noTitle">Що роблю я (не в адмінці)</h2>
+            <p data-i18n="cms.noSubtitle">Ціна рахується індивідуально після брифу — залежить від обсягу.</p>
           </div>
-          <ul class="check-list check-list--no">
-            <li>Додаткова мова (російська, польська тощо)</li>
-            <li>Додати / прибрати цілу секцію на сторінці</li>
-            <li>Змінити структуру блоків, вкладки, нестандартні анімації</li>
-            <li>Правки дизайну поза базовим шаблоном</li>
-            <li>Додаткові сторінки (каталог, блог, прайс окремо)</li>
-            <li>Кастомна адмінка або складні інтеграції</li>
-            <li>Оплата на сайті, особистий кабінет</li>
-          </ul>
+          <ul class="check-list check-list--no" data-i18n-list="cms.no"></ul>
         </div>
       </div>
     </section>
@@ -185,100 +186,58 @@
     <section class="section section--alt" id="packages">
       <div class="container">
         <div class="section__head">
-          <h2>Ціна</h2>
-          <p>Один зрозумілий базовий пакет. Усе, що виходить за його межі — рахую після брифу. Першим клієнтам можлива знижка за відгук.</p>
+          <h2 data-i18n="pricing.title">Ціна</h2>
+          <p data-i18n="pricing.subtitle">Один зрозумілий базовий пакет. Усе, що виходить за його межі — рахую після брифу. Першим клієнтам можлива знижка за відгук.</p>
         </div>
         <div class="packages packages--two">
           <article class="package package--featured">
-            <span class="package__label">Основний оффер</span>
-            <h3>Базовий шаблон</h3>
-            <p class="package__price"><strong>15 000</strong> грн</p>
-            <p class="package__note">фіксована ціна за стандартний обсяг</p>
-            <ul>
-              <li>One-page на перевіреній структурі (як у демо)</li>
-              <li>Ваші тексти, фото, лого та <strong>власна палітра</strong></li>
-              <li>2 мови: українська + англійська</li>
-              <li>Адаптив (телефон / планшет / ПК)</li>
-              <li>Панель керування контентом (адмінка)</li>
-              <li>Форма заявки на сайті</li>
-              <li>Деплой на <strong>ваш домен</strong> + допомога з налаштуванням</li>
-              <li>Термін: 5–7 днів</li>
-            </ul>
-            <a class="btn btn--primary btn--block" href="#contact">Замовити</a>
+            <span class="package__label" data-i18n="pricing.baseLabel">Основний оффер</span>
+            <h3 data-i18n="pricing.baseTitle">Базовий шаблон</h3>
+            <p class="package__price">
+              <strong id="base-price-value">15 000</strong>
+              <span id="base-price-currency">грн</span>
+            </p>
+            <p class="package__note" data-i18n="pricing.baseNote">фіксована ціна за стандартний обсяг</p>
+            <ul data-i18n-list="pricing.baseItems"></ul>
+            <a class="btn btn--primary btn--block" href="#contact" data-i18n="pricing.baseCta">Замовити</a>
           </article>
 
           <article class="package">
-            <h3>Доробки під задачу</h3>
-            <p class="package__price"><strong>індивідуально</strong></p>
-            <p class="package__note">ціна залежить від того, що саме потрібно</p>
-            <ul>
-              <li>Третя мова (російська та ін.)</li>
-              <li>Додаткова секція, вкладка, блок</li>
-              <li>Правки структури або дизайну поза шаблоном</li>
-              <li>Додаткові сторінки</li>
-              <li>Нестандартні інтеграції (CRM, складні форми)</li>
-              <li>Кастомна адмінка або бекенд</li>
-              <li>Унікальний дизайн «з нуля»</li>
-            </ul>
-            <p class="package__hint">Напишіть, що потрібно — надішлю оцінку до старту робіт.</p>
-            <a class="btn btn--ghost btn--block" href="#contact">Обговорити</a>
+            <h3 data-i18n="pricing.customTitle">Доробки під задачу</h3>
+            <p class="package__price"><strong data-i18n="pricing.customPrice">індивідуально</strong></p>
+            <p class="package__note" data-i18n="pricing.customNote">ціна залежить від того, що саме потрібно</p>
+            <ul data-i18n-list="pricing.customItems"></ul>
+            <p class="package__hint" data-i18n="pricing.customHint">Напишіть, що потрібно — надішлю оцінку до старту робіт.</p>
+            <a class="btn btn--ghost btn--block" href="#contact" data-i18n="pricing.customCta">Обговорити</a>
           </article>
         </div>
 
         <div class="extras">
-          <h3>Приклади доробок (орієнтовно)</h3>
-          <p class="extras__lead">Точну суму називаю після брифу. Нижче — щоб було зрозуміло, від чого залежить ціна.</p>
-          <div class="extras__grid">
-            <div class="extra">
-              <strong>Додаткова мова (RU тощо)</strong>
-              <span>індивідуально</span>
-            </div>
-            <div class="extra">
-              <strong>Додаткова секція / вкладка</strong>
-              <span>індивідуально</span>
-            </div>
-            <div class="extra">
-              <strong>Додаткові сторінки</strong>
-              <span>індивідуально</span>
-            </div>
-            <div class="extra">
-              <strong>Правки дизайну поза базою</strong>
-              <span>індивідуально</span>
-            </div>
-            <div class="extra">
-              <strong>Контент (тексти / фото)</strong>
-              <span>за домовленістю</span>
-            </div>
-          </div>
+          <h3 data-i18n="pricing.extrasTitle">Приклади доробок (орієнтовно)</h3>
+          <p class="extras__lead" data-i18n="pricing.extrasLead">Точну суму називаю після брифу. Нижче — щоб було зрозуміло, від чого залежить ціна.</p>
+          <div class="extras__grid" id="extras-grid"></div>
         </div>
       </div>
     </section>
 
     <section class="section" id="terms">
       <div class="container terms">
-        <h2>Умови співпраці</h2>
-        <ul>
-          <li><strong>50% передоплата</strong> перед стартом роботи</li>
-          <li>Обсяг фіксуємо в переписці або короткому ТЗ — щоб не було «а ще ось це»</li>
-          <li>2 раунди правок по текстах/фото входять у базовий шаблон; структурні зміни — окремо</li>
-          <li>Хостинг і домен — на стороні клієнта; допомагаю з налаштуванням (домен ~300–500 грн/рік)</li>
-          <li>Для адмінки потрібен GitHub-акаунт (допоможу створити)</li>
-          <li>Якщо щось перестане працювати через мою помилку — виправлю безкоштовно</li>
-        </ul>
+        <h2 data-i18n="terms.title">Умови співпраці</h2>
+        <ul data-i18n-list="terms.items"></ul>
       </div>
     </section>
 
     <section class="section section--contact" id="contact">
       <div class="container contact">
         <div class="contact__text">
-          <h2>Напишіть — покажу, як це виглядатиме для вас</h2>
-          <p>Можу за 2–3 години набросати міні-превью під ваш бізнес — без зобов'язань. Просто надішліть назву та нішу.</p>
+          <h2 data-i18n="contact.title">Напишіть — покажу, як це виглядатиме для вас</h2>
+          <p data-i18n="contact.text">Можу за 2–3 години набросати міні-превью під ваш бізнес — без зобов'язань. Просто надішліть назву та нішу.</p>
           <div class="contact__links">
-            <a class="contact__link" href="https://t.me/Lyr1c_U" data-contact="telegram" target="_blank" rel="noopener">
+            <a class="contact__link" href="https://t.me/Lyr1c_U" target="_blank" rel="noopener">
               <span>Telegram</span>
               <strong>@Lyr1c_U</strong>
             </a>
-            <a class="contact__link" href="https://www.linkedin.com/in/artem-tolstik-2b6344400/" data-contact="linkedin" target="_blank" rel="noopener">
+            <a class="contact__link" href="https://www.linkedin.com/in/artem-tolstik-2b6344400/" target="_blank" rel="noopener">
               <span>LinkedIn</span>
               <strong>Artem Tolstik</strong>
             </a>
@@ -286,7 +245,7 @@
               <span>GitHub</span>
               <strong>Lyr1cU</strong>
             </a>
-            <a class="contact__link" href="mailto:artemtolstik1997@gmail.com" data-contact="email">
+            <a class="contact__link" href="mailto:artemtolstik1997@gmail.com">
               <span>Email</span>
               <strong>artemtolstik1997@gmail.com</strong>
             </a>
@@ -298,11 +257,12 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>© 2026 Artem.dev · Дніпро</p>
-      <a href="#top">Нагору ↑</a>
+      <p data-i18n="footer.copy">© 2026 Artem.dev · Дніпро</p>
+      <a href="#top" data-i18n="footer.top">Нагору ↑</a>
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

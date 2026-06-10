@@ -12,11 +12,11 @@ A single-page site that presents my web development offer for local small busine
 | **Works** | Live demos — [Zerno](https://lyr1cu.github.io/Zerno/) (café) and [Power Gym](https://lyr1cu.github.io/Power-Gym/) (gym), with links to each admin panel |
 | **How it works** | Brief → build → deploy on client domain + CMS → short onboarding |
 | **CMS** | What the client edits themselves vs what requires a developer |
-| **Pricing** | Base template (15 000 UAH) + custom add-ons quoted individually |
+| **Pricing** | Base template (15 000 UAH / ~$400 USD) + custom add-ons quoted individually |
 | **Terms** | 50% prepayment, scope in writing, free fixes for my bugs |
 | **Contact** | Telegram, LinkedIn, GitHub, email |
 
-Page language: **Ukrainian** (target audience — local businesses in Ukraine).
+Page languages: **Ukrainian, Russian, English** (language switcher in header). Prices: UAH for UA/RU, USD for EN.
 
 ## Stack
 
@@ -29,7 +29,8 @@ Page language: **Ukrainian** (target audience — local businesses in Ukraine).
 ```
 index.html       # landing page
 css/styles.css   # layout and components
-js/main.js       # mobile nav toggle
+js/i18n.js       # UA / RU / EN strings
+js/main.js       # i18n + mobile nav
 OUTREACH.md      # first-message template (local only — do not deploy)
 ```
 
@@ -47,7 +48,7 @@ Open [http://localhost:8080](http://localhost:8080)
 ### Option A — separate repo (recommended)
 
 1. Create repo `Lyr1cU/portfolio` on GitHub.
-2. Push `index.html`, `css/`, and `js/` only.
+2. Push `index.html`, `css/`, and `js/` (including `i18n.js`).
 3. **Settings → Pages → Deploy from branch** → `main` / `/ (root)`.
 4. Site: `https://lyr1cu.github.io/portfolio/`
 
