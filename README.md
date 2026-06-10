@@ -31,6 +31,7 @@ index.html       # landing page
 css/styles.css   # layout and components
 js/i18n.js       # UA / RU / EN strings
 js/main.js       # i18n + mobile nav
+img/             # hero previews for work cards (from Zerno & Power Gym)
 OUTREACH.md      # first-message template (local only — do not deploy)
 ```
 

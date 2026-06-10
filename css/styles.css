@@ -375,14 +375,14 @@ img {
 
 .work-card__preview--zerno {
   background-image:
-    linear-gradient(180deg, rgba(11, 13, 16, 0.1), rgba(11, 13, 16, 0.7)),
-    linear-gradient(135deg, #3d2314 0%, #8b5a2b 50%, #d4a574 100%);
+    linear-gradient(180deg, rgba(11, 13, 16, 0.15), rgba(11, 13, 16, 0.75)),
+    url("../img/zerno-hero.webp");
 }
 
 .work-card__preview--gym {
   background-image:
-    linear-gradient(180deg, rgba(11, 13, 16, 0.1), rgba(11, 13, 16, 0.7)),
-    linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #ffd400 100%);
+    linear-gradient(180deg, rgba(11, 13, 16, 0.15), rgba(11, 13, 16, 0.75)),
+    url("../img/gym-hero.webp");
 }
 
 .work-card__badge {
