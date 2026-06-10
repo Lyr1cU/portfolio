@@ -65,5 +65,5 @@ For `https://lyr1cu.github.io/` without `/portfolio`:
 
 - Telegram: [@Lyr1c_U](https://t.me/Lyr1c_U)
 - LinkedIn: [artem-tolstik-2b6344400](https://www.linkedin.com/in/artem-tolstik-2b6344400/)
-- Email: artemtolstik1997@gmail.com
+- Email: atolstik42@gmail.com
 - GitHub: [Lyr1cU](https://github.com/Lyr1cU)
