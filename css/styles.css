@@ -127,13 +127,13 @@ img {
   background: var(--bg-alt);
 }
 
-.nav a {
+.nav a:not(.nav__cta) {
   font-size: 0.9rem;
   color: var(--muted);
   transition: color 0.2s;
 }
 
-.nav a:hover {
+.nav a:not(.nav__cta):hover {
   color: var(--text);
 }
 
@@ -141,7 +141,7 @@ img {
   flex-shrink: 0;
 }
 
-.nav__cta {
+.nav .nav__cta {
   display: none;
 }
 
@@ -1030,11 +1030,12 @@ img {
     color: var(--text);
   }
 
-  .nav__cta {
+  .nav .nav__cta {
     display: inline-flex;
     margin-top: auto;
     padding-top: 1rem;
     width: 100%;
+    color: #fff;
   }
 
   body.nav-open {
