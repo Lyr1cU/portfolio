@@ -103,18 +103,38 @@
 
   var burger = document.querySelector(".burger");
   var nav = document.getElementById("nav");
+  var backdrop = document.getElementById("nav-backdrop");
+
+  function setMenuOpen(open) {
+    if (!nav || !burger) return;
+    nav.classList.toggle("is-open", open);
+    burger.classList.toggle("is-active", open);
+    burger.setAttribute("aria-expanded", open ? "true" : "false");
+    document.body.classList.toggle("nav-open", open);
+    if (backdrop) backdrop.setAttribute("aria-hidden", open ? "false" : "true");
+  }
 
   if (burger && nav) {
     burger.addEventListener("click", function () {
-      var open = nav.classList.toggle("is-open");
-      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      setMenuOpen(!nav.classList.contains("is-open"));
     });
+
+    if (backdrop) {
+      backdrop.addEventListener("click", function () {
+        setMenuOpen(false);
+      });
+    }
 
     nav.querySelectorAll("a").forEach(function (link) {
       link.addEventListener("click", function () {
-        nav.classList.remove("is-open");
-        burger.setAttribute("aria-expanded", "false");
+        setMenuOpen(false);
       });
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && nav.classList.contains("is-open")) {
+        setMenuOpen(false);
+      }
     });
   }
 

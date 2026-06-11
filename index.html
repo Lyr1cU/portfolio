@@ -23,6 +23,7 @@
         <a href="#cms" data-i18n="nav.cms">Адмінка</a>
         <a href="#packages" data-i18n="nav.price">Ціна</a>
         <a href="#contact" data-i18n="nav.contact">Контакт</a>
+        <a class="nav__cta btn btn--primary" href="#contact" data-i18n="nav.write">Написати</a>
       </nav>
       <div class="header__actions">
         <div class="lang-switch" role="group" data-i18n-aria="nav.langGroup" aria-label="Мова сайту">
@@ -33,10 +34,14 @@
         <a class="btn btn--primary header__cta" href="#contact" data-i18n="nav.write">Написати</a>
       </div>
       <button class="burger" type="button" aria-expanded="false" aria-controls="nav" data-i18n-aria="nav.menu" aria-label="Меню">
-        <span></span><span></span><span></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
       </button>
     </div>
   </header>
+
+  <div class="nav-backdrop" id="nav-backdrop" aria-hidden="true"></div>
 
   <main id="top">
     <section class="hero">
