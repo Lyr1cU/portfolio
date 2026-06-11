@@ -38,9 +38,30 @@
     return elements;
   }
 
+  function isInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return rect.top < window.innerHeight * 0.94 && rect.bottom > 0;
+  }
+
   function observeElements(elements) {
     elements.forEach(function (el) {
-      if (el) observer.observe(el);
+      if (!el) return;
+
+      if (isInViewport(el)) {
+        revealNow(el);
+        return;
+      }
+
+      observer.observe(el);
+    });
+  }
+
+  function revealStuckElements() {
+    document.querySelectorAll(".reveal:not(.is-visible)").forEach(function (el) {
+      if (isInViewport(el)) {
+        revealNow(el);
+        observer.unobserve(el);
+      }
     });
   }
 
@@ -71,7 +92,7 @@
           observer.unobserve(entry.target);
         });
       },
-      { threshold: 0.12, rootMargin: "0px 0px -6% 0px" }
+      { threshold: 0.08, rootMargin: "0px 0px 0px 0px" }
     );
 
     var targets = [];
@@ -109,11 +130,13 @@
       addStaggered(".packages", ".package", 100),
       addStaggered("#extras-grid", ".extra", 60),
       addStaggered(".terms ul", "li", 55),
-      addStaggered(".contact__links", ".contact__link", 70),
-      addStaggered(".footer__inner", ":scope > *", 80)
+      addStaggered(".contact__links", ".contact__link", 70)
     );
 
     observeElements(targets);
+
+    window.addEventListener("load", revealStuckElements);
+    window.addEventListener("scroll", revealStuckElements, { passive: true });
   }
 
   function init() {
