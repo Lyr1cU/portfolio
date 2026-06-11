@@ -137,7 +137,21 @@ window.PORTFOLIO_I18N = {
     },
     contact: {
       title: "Напишіть — покажу, як це виглядатиме для вас",
-      text: "Можу за 2–3 години набросати міні-превью під ваш бізнес — без зобов'язань. Просто надішліть назву та нішу."
+      text: "Можу за 2–3 години набросати міні-превью під ваш бізнес — без зобов'язань. Просто надішліть назву та нішу.",
+      formTitle: "Швидка заявка",
+      formName: "Ім'я",
+      formContact: "Телефон або @username",
+      formBusiness: "Назва бізнесу / ніша (необов'язково)",
+      formMessage: "Що потрібно зробити?",
+      formSubmit: "Надіслати",
+      formSubmitting: "Надсилаю…",
+      formSuccess: "Дякую! Напишу вам найближчим часом.",
+      formError: "Не вдалося надіслати. Напишіть напряму в Telegram — @Lyr1c_U",
+      formErrorConfig: "Форма ще не підключена. Напишіть в Telegram — @Lyr1c_U",
+      errors: {
+        required: "Обов'язкове поле",
+        contact: "Вкажіть телефон або @username"
+      }
     },
     footer: {
       copy: "© 2026 Artem.dev · Дніпро",
@@ -283,7 +297,21 @@ window.PORTFOLIO_I18N = {
     },
     contact: {
       title: "Напишите — покажу, как это будет выглядеть для вас",
-      text: "Могу за 2–3 часа набросать мини-превью под ваш бизнес — без обязательств. Просто пришлите название и нишу."
+      text: "Могу за 2–3 часа набросать мини-превью под ваш бизнес — без обязательств. Просто пришлите название и нишу.",
+      formTitle: "Быстрая заявка",
+      formName: "Имя",
+      formContact: "Телефон или @username",
+      formBusiness: "Название бизнеса / ниша (необязательно)",
+      formMessage: "Что нужно сделать?",
+      formSubmit: "Отправить",
+      formSubmitting: "Отправляю…",
+      formSuccess: "Спасибо! Напишу вам в ближайшее время.",
+      formError: "Не удалось отправить. Напишите напрямую в Telegram — @Lyr1c_U",
+      formErrorConfig: "Форма ещё не подключена. Напишите в Telegram — @Lyr1c_U",
+      errors: {
+        required: "Обязательное поле",
+        contact: "Укажите телефон или @username"
+      }
     },
     footer: {
       copy: "© 2026 Artem.dev · Днепр",
@@ -429,7 +457,21 @@ window.PORTFOLIO_I18N = {
     },
     contact: {
       title: "Message me — I'll show what it could look like for you",
-      text: "I can draft a mini-preview for your business in 2–3 hours — no obligation. Just send the name and niche."
+      text: "I can draft a mini-preview for your business in 2–3 hours — no obligation. Just send the name and niche.",
+      formTitle: "Quick request",
+      formName: "Name",
+      formContact: "Phone or @username",
+      formBusiness: "Business name / niche (optional)",
+      formMessage: "What do you need?",
+      formSubmit: "Send",
+      formSubmitting: "Sending…",
+      formSuccess: "Thanks! I'll get back to you soon.",
+      formError: "Couldn't send. Message me on Telegram — @Lyr1c_U",
+      formErrorConfig: "Form isn't connected yet. Message me on Telegram — @Lyr1c_U",
+      errors: {
+        required: "Required field",
+        contact: "Enter a phone number or @username"
+      }
     },
     footer: {
       copy: "© 2026 Artem.dev · Dnipro",

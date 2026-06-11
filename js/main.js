@@ -63,6 +63,11 @@
       if (value != null) el.textContent = value;
     });
 
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(function (el) {
+      var value = get(t, el.getAttribute("data-i18n-placeholder"));
+      if (value != null) el.setAttribute("placeholder", value);
+    });
+
     document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
       var value = get(t, el.getAttribute("data-i18n-aria"));
       if (value != null) el.setAttribute("aria-label", value);

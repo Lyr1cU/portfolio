@@ -251,6 +251,40 @@
             </a>
           </div>
         </div>
+
+        <div class="contact__form-wrap">
+          <h3 class="contact__form-title" data-i18n="contact.formTitle">Швидка заявка</h3>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="contact-form__row">
+              <label class="field">
+                <span class="field__label" data-i18n="contact.formName">Ім'я</span>
+                <input class="field__input" type="text" name="name" required autocomplete="name" data-i18n-placeholder="contact.formName">
+                <span class="field__error" data-error="name"></span>
+              </label>
+              <label class="field">
+                <span class="field__label" data-i18n="contact.formContact">Телефон або Telegram</span>
+                <input class="field__input" type="text" name="contact" required autocomplete="tel" data-i18n-placeholder="contact.formContact">
+                <span class="field__error" data-error="contact"></span>
+              </label>
+            </div>
+            <label class="field">
+              <span class="field__label" data-i18n="contact.formBusiness">Назва бізнесу / ніша</span>
+              <input class="field__input" type="text" name="business" autocomplete="organization" data-i18n-placeholder="contact.formBusiness">
+            </label>
+            <label class="field">
+              <span class="field__label" data-i18n="contact.formMessage">Повідомлення</span>
+              <textarea class="field__input field__input--area" name="message" rows="4" data-i18n-placeholder="contact.formMessage"></textarea>
+            </label>
+            <label class="field field--hp" aria-hidden="true">
+              <input class="field__input" type="text" name="website" tabindex="-1" autocomplete="off">
+            </label>
+            <button class="btn btn--primary btn--block" type="submit" data-i18n="contact.formSubmit">Надіслати</button>
+            <p class="contact-form__error" id="form-error" hidden></p>
+          </form>
+
+          <p class="contact-form__success" id="form-success" hidden data-i18n="contact.formSuccess">Дякую! Напишу вам найближчим часом.</p>
+        </div>
       </div>
     </section>
   </main>
@@ -263,6 +297,8 @@
   </footer>
 
   <script src="js/i18n.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/form.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
