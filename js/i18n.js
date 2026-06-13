@@ -2,7 +2,7 @@ window.PORTFOLIO_I18N = {
   uk: {
     meta: {
       title: "Artem.dev — сайти для малого бізнесу",
-      description: "Односторінкові сайти для кафе, залів, салонів. UA + EN, опційно RU. Власний домен, панель керування. Дніпро."
+      description: "Односторінкові сайти для кафе, залів, салонів. 2 мови в базі, +1 переклад — фіксована ціна. Власний домен, панель керування. Дніпро."
     },
     nav: {
       aria: "Головна навігація",
@@ -18,13 +18,13 @@ window.PORTFOLIO_I18N = {
     hero: {
       eyebrow: "Веб-розробник · Дніпро",
       title: "Сайти для малого бізнесу — швидко, сучасно, з панеллю керування",
-      lead: "Роблю односторінкові сайти-візитки для кафе, залів, салонів та інших локальних бізнесів. Базово — українська та англійська; російську або іншу мову підключу за потреби. Ви самі змінюєте ціни та тексти через адмінку — без програміста.",
+      lead: "Роблю односторінкові сайти-візитки для кафе, залів, салонів та інших локальних бізнесів. У базовому пакеті — 2 мови; потрібна ще одна — фіксована доплата. Ви самі змінюєте ціни та тексти через адмінку — без програміста.",
       ctaWorks: "Подивитись приклади",
       ctaPrice: "Ціна та умови",
       statTime: "5–7 днів",
       statTimeLabel: "типовий термін",
-      statLang: "UA + EN",
-      statLangLabel: "+ RU за домовленістю",
+      statLang: "2 мови",
+      statLangLabel: "+1 переклад — 2 000 грн",
       statPrice: "~12 500 грн",
       statPriceLabel: "базовий шаблон",
       demos: "Живі демо",
@@ -70,7 +70,7 @@ window.PORTFOLIO_I18N = {
         "Координати на карті"
       ],
       no: [
-        "Додаткова мова (російська, польська тощо)",
+        "Додаткова мова (+1 переклад) — 2 000 грн",
         "Додати / прибрати цілу секцію на сторінці",
         "Змінити структуру блоків, вкладки, нестандартні анімації",
         "Правки дизайну поза базовим шаблоном",
@@ -90,7 +90,7 @@ window.PORTFOLIO_I18N = {
       baseItems: [
         "One-page на перевіреній структурі (як у демо)",
         "Ваші тексти, фото, лого та власна палітра",
-        "2 мови: українська + англійська",
+        "2 мови на вибір (входять у базовий пакет)",
         "Адаптив (телефон / планшет / ПК)",
         "Панель керування контентом (адмінка)",
         "Форма заявки на сайті",
@@ -102,7 +102,6 @@ window.PORTFOLIO_I18N = {
       customPrice: "індивідуально",
       customNote: "ціна залежить від того, що саме потрібно",
       customItems: [
-        "Третя мова (російська та ін.)",
         "Додаткова секція, вкладка, блок",
         "Правки структури або дизайну поза шаблоном",
         "Додаткові сторінки",
@@ -115,7 +114,7 @@ window.PORTFOLIO_I18N = {
       extrasTitle: "Приклади доробок (орієнтовно)",
       extrasLead: "Точну суму називаю після брифу. Нижче — щоб було зрозуміло, від чого залежить ціна.",
       extras: [
-        { title: "Додаткова мова (RU тощо)", price: "індивідуально" },
+        { title: "Додаткова мова (+1 переклад)", price: "2 000 грн" },
         { title: "Додаткова секція / вкладка", price: "індивідуально" },
         { title: "Додаткові сторінки", price: "індивідуально" },
         { title: "Правки дизайну поза базою", price: "індивідуально" },
@@ -162,7 +161,7 @@ window.PORTFOLIO_I18N = {
   ru: {
     meta: {
       title: "Artem.dev — сайты для малого бизнеса",
-      description: "Одностраничные сайты для кафе, залов, салонов. UA + EN, опционально RU. Свой домен, панель управления. Днепр."
+      description: "Одностраничные сайты для кафе, залов, салонов. 2 языка в базе, +1 перевод — фиксированная цена. Свой домен, панель управления. Днепр."
     },
     nav: {
       aria: "Главная навигация",
@@ -178,13 +177,13 @@ window.PORTFOLIO_I18N = {
     hero: {
       eyebrow: "Веб-разработчик · Днепр",
       title: "Сайты для малого бизнеса — быстро, современно, с панелью управления",
-      lead: "Делаю одностраничные сайты-визитки для кафе, залов, салонов и другого локального бизнеса. Базово — украинский и английский; русский или другой язык подключу по запросу. Вы сами меняете цены и тексты через админку — без программиста.",
+      lead: "Делаю одностраничные сайты-визитки для кафе, залов, салонов и другого локального бизнеса. В базовом пакете — 2 языка; нужен ещё один — фиксированная доплата. Вы сами меняете цены и тексты через админку — без программиста.",
       ctaWorks: "Посмотреть примеры",
       ctaPrice: "Цена и условия",
       statTime: "5–7 дней",
       statTimeLabel: "типичный срок",
-      statLang: "UA + EN",
-      statLangLabel: "+ RU по договорённости",
+      statLang: "2 языка",
+      statLangLabel: "+1 перевод — 2 000 грн",
       statPrice: "~12 500 грн",
       statPriceLabel: "базовый шаблон",
       demos: "Живые демо",
@@ -230,7 +229,7 @@ window.PORTFOLIO_I18N = {
         "Координаты на карте"
       ],
       no: [
-        "Дополнительный язык (русский, польский и т.д.)",
+        "Дополнительный язык (+1 перевод) — 2 000 грн",
         "Добавить / убрать целую секцию на странице",
         "Изменить структуру блоков, вкладки, нестандартные анимации",
         "Правки дизайна вне базового шаблона",
@@ -250,7 +249,7 @@ window.PORTFOLIO_I18N = {
       baseItems: [
         "One-page на проверенной структуре (как в демо)",
         "Ваши тексты, фото, лого и собственная палитра",
-        "2 языка: украинский + английский",
+        "2 языка на выбор (входят в базовый пакет)",
         "Адаптив (телефон / планшет / ПК)",
         "Панель управления контентом (админка)",
         "Форма заявки на сайте",
@@ -262,7 +261,6 @@ window.PORTFOLIO_I18N = {
       customPrice: "индивидуально",
       customNote: "цена зависит от того, что именно нужно",
       customItems: [
-        "Третий язык (русский и др.)",
         "Дополнительная секция, вкладка, блок",
         "Правки структуры или дизайна вне шаблона",
         "Дополнительные страницы",
@@ -275,7 +273,7 @@ window.PORTFOLIO_I18N = {
       extrasTitle: "Примеры доработок (ориентировочно)",
       extrasLead: "Точную сумму называю после брифа. Ниже — чтобы было понятно, от чего зависит цена.",
       extras: [
-        { title: "Дополнительный язык (RU и т.д.)", price: "индивидуально" },
+        { title: "Дополнительный язык (+1 перевод)", price: "2 000 грн" },
         { title: "Дополнительная секция / вкладка", price: "индивидуально" },
         { title: "Дополнительные страницы", price: "индивидуально" },
         { title: "Правки дизайна вне базы", price: "индивидуально" },
@@ -322,7 +320,7 @@ window.PORTFOLIO_I18N = {
   en: {
     meta: {
       title: "Artem.dev — websites for small business",
-      description: "One-page sites for cafés, gyms, salons. UA + EN, optional RU. Custom domain, content admin. Dnipro, Ukraine."
+      description: "One-page sites for cafés, gyms, salons. 2 languages included, +1 translation at a fixed add-on. Custom domain, content admin. Dnipro, Ukraine."
     },
     nav: {
       aria: "Main navigation",
@@ -338,13 +336,13 @@ window.PORTFOLIO_I18N = {
     hero: {
       eyebrow: "Web developer · Dnipro",
       title: "Websites for small business — fast, modern, with a content panel",
-      lead: "I build one-page business sites for cafés, gyms, salons, and other local businesses. Default languages: Ukrainian and English; Russian or others on request. Clients update prices and copy in the admin panel — no developer needed.",
+      lead: "I build one-page business sites for cafés, gyms, salons, and other local businesses. The base package includes 2 languages; each extra language is a fixed add-on. Clients update prices and copy in the admin panel — no developer needed.",
       ctaWorks: "View examples",
       ctaPrice: "Pricing & terms",
       statTime: "5–7 days",
       statTimeLabel: "typical timeline",
-      statLang: "UA + EN",
-      statLangLabel: "+ RU on request",
+      statLang: "2 languages",
+      statLangLabel: "+1 translation — $55",
       statPrice: "~$330",
       statPriceLabel: "base template",
       demos: "Live demos",
@@ -390,7 +388,7 @@ window.PORTFOLIO_I18N = {
         "Map coordinates"
       ],
       no: [
-        "Extra language (Russian, Polish, etc.)",
+        "Extra language (+1 translation) — $55",
         "Add / remove a full page section",
         "Change block structure, tabs, custom animations",
         "Design changes beyond the base template",
@@ -410,7 +408,7 @@ window.PORTFOLIO_I18N = {
       baseItems: [
         "One-page site on the proven structure (see demos)",
         "Your copy, photos, logo, and custom color palette",
-        "2 languages: Ukrainian + English",
+        "2 languages of your choice (included in base)",
         "Responsive (phone / tablet / desktop)",
         "Content admin panel",
         "Contact form on the site",
@@ -422,7 +420,6 @@ window.PORTFOLIO_I18N = {
       customPrice: "custom quote",
       customNote: "price depends on what you need",
       customItems: [
-        "Third language (Russian, etc.)",
         "Extra section, tab, or block",
         "Structure or design changes beyond the template",
         "Additional pages",
@@ -435,7 +432,7 @@ window.PORTFOLIO_I18N = {
       extrasTitle: "Add-on examples (approximate)",
       extrasLead: "Exact pricing after the brief. Below — what affects the quote.",
       extras: [
-        { title: "Extra language (RU, etc.)", price: "custom quote" },
+        { title: "Extra language (+1 translation)", price: "$55" },
         { title: "Extra section / tab", price: "custom quote" },
         { title: "Additional pages", price: "custom quote" },
         { title: "Design changes beyond base", price: "custom quote" },
