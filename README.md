@@ -12,7 +12,7 @@ A single-page site that presents my web development offer for local small busine
 | **Works** | Live demos — [Zerno](https://lyr1cu.github.io/Zerno/) (café) and [Power Gym](https://lyr1cu.github.io/Power-Gym/) (gym), with links to each admin panel |
 | **How it works** | Brief → build → deploy on client domain + CMS → short onboarding |
 | **CMS** | What the client edits themselves vs what requires a developer |
-| **Pricing** | Base template (15 000 UAH / ~$400 USD) + custom add-ons quoted individually |
+| **Pricing** | Base template (12 500 UAH / ~$330 USD) + custom add-ons quoted individually |
 | **Terms** | 50% prepayment, scope in writing, free fixes for my bugs |
 | **Contact** | Quick request form → Telegram + direct links (Telegram, LinkedIn, GitHub, email) |
 
