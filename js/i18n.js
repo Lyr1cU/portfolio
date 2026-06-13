@@ -126,7 +126,7 @@ window.PORTFOLIO_I18N = {
     terms: {
       title: "Умови співпраці",
       items: [
-        "50% передоплата перед стартом роботи",
+        "30% передоплата перед стартом, 70% перед передачею сайту",
         "Обсяг фіксуємо в переписці або короткому ТЗ — щоб не було «а ще ось це»",
         "2 раунди правок по текстах/фото входять у базовий шаблон; структурні зміни — окремо",
         "Хостинг і домен — на стороні клієнта; допомагаю з налаштуванням (домен ~300–500 грн/рік)",
@@ -285,7 +285,7 @@ window.PORTFOLIO_I18N = {
     terms: {
       title: "Условия сотрудничества",
       items: [
-        "50% предоплата перед стартом работы",
+        "30% предоплата перед стартом, 70% перед передачей сайта",
         "Объём фиксируем в переписке или коротком ТЗ — чтобы не было «а ещё вот это»",
         "2 раунда правок по текстам/фото входят в базовый шаблон; структурные изменения — отдельно",
         "Хостинг и домен — на стороне клиента; помогаю с настройкой (домен ~300–500 грн/год)",
@@ -342,7 +342,7 @@ window.PORTFOLIO_I18N = {
       statTime: "5–7 days",
       statTimeLabel: "typical timeline",
       statLang: "2 languages",
-      statLangLabel: "+1 translation — $55",
+      statLangLabel: "+1 translation — $15",
       statPrice: "~$330",
       statPriceLabel: "base template",
       demos: "Live demos",
@@ -388,7 +388,7 @@ window.PORTFOLIO_I18N = {
         "Map coordinates"
       ],
       no: [
-        "Extra language (+1 translation) — $55",
+        "Extra language (+1 translation) — $15",
         "Add / remove a full page section",
         "Change block structure, tabs, custom animations",
         "Design changes beyond the base template",
@@ -432,7 +432,7 @@ window.PORTFOLIO_I18N = {
       extrasTitle: "Add-on examples (approximate)",
       extrasLead: "Exact pricing after the brief. Below — what affects the quote.",
       extras: [
-        { title: "Extra language (+1 translation)", price: "$55" },
+        { title: "Extra language (+1 translation)", price: "$15" },
         { title: "Extra section / tab", price: "custom quote" },
         { title: "Additional pages", price: "custom quote" },
         { title: "Design changes beyond base", price: "custom quote" },
@@ -444,7 +444,7 @@ window.PORTFOLIO_I18N = {
     terms: {
       title: "Terms",
       items: [
-        "50% prepayment before work starts",
+        "30% prepayment before work starts, 70% before site handoff",
         "Scope fixed in chat or a short spec — no surprise «also do this»",
         "2 rounds of copy/photo revisions included in the base template; structural changes are extra",
         "Hosting and domain are on the client side; I help with setup (domain ~$8–15/year)",

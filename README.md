@@ -13,7 +13,7 @@ A single-page site that presents my web development offer for local small busine
 | **How it works** | Brief → build → deploy on client domain + CMS → short onboarding |
 | **CMS** | What the client edits themselves vs what requires a developer |
 | **Pricing** | Base template (12 500 UAH / ~$330 USD) + custom add-ons quoted individually |
-| **Terms** | 50% prepayment, scope in writing, free fixes for my bugs |
+| **Terms** | 30% prepayment, 70% on handoff, scope in writing, free fixes for my bugs |
 | **Contact** | Quick request form → Telegram + direct links (Telegram, LinkedIn, GitHub, email) |
 
 Page languages: **Ukrainian, Russian, English** (language switcher in header). Prices: UAH for UA/RU, USD for EN.
