@@ -23,6 +23,8 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
+  overscroll-behavior-x: none;
 }
 
 body {
@@ -32,6 +34,14 @@ body {
   line-height: 1.6;
   color: var(--text);
   background: var(--bg);
+  overflow-x: clip;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+main {
+  overflow-x: clip;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -69,6 +79,7 @@ img {
 
 .container {
   width: min(100% - 2rem, var(--container));
+  max-width: 100%;
   margin-inline: auto;
 }
 
@@ -964,6 +975,10 @@ img {
 }
 
 @media (max-width: 720px) {
+  body {
+    touch-action: pan-y;
+  }
+
   .header__inner {
     flex-wrap: nowrap;
     gap: 0.75rem;
@@ -1009,16 +1024,19 @@ img {
     flex-direction: column;
     gap: 0.15rem;
     width: min(300px, 86vw);
+    max-width: 100%;
     height: 100dvh;
     padding: calc(var(--header-height) + 1.25rem) 1.25rem 2rem;
     background: linear-gradient(180deg, var(--bg-alt) 0%, var(--bg) 100%);
     border-left: 1px solid var(--border);
     box-shadow: -16px 0 48px rgba(0, 0, 0, 0.45);
     overflow-y: auto;
+    overflow-x: hidden;
     visibility: hidden;
     pointer-events: none;
-    transform: translateX(100%);
+    transform: translate3d(100%, 0, 0);
     transition: transform 0.28s ease, visibility 0.28s ease;
+    will-change: transform;
   }
 
   .nav::before {
@@ -1034,7 +1052,7 @@ img {
   .nav.is-open {
     visibility: visible;
     pointer-events: auto;
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
 
   .nav a:not(.nav__cta) {
