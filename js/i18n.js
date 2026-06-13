@@ -41,7 +41,8 @@ window.PORTFOLIO_I18N = {
       gymDesc: "Позиції меню, тренери у вкладках, напрямки, графік роботи. Графіт + жовтий акцент.",
       openSite: "Відкрити сайт",
       admin: "Адмінка",
-      tagAnim: "Анімації",
+      tagAnim: "Scroll-анімації",
+      tagAnimNote: "доп. опція · у демо увімкнено",
       tagTabs: "Вкладки"
     },
     how: {
@@ -60,7 +61,7 @@ window.PORTFOLIO_I18N = {
       yesTitle: "Що ви змінюєте самі",
       yesSubtitle: "Через адмінку (вхід через GitHub). Зміни з'являються на сайті за 1–2 хвилини.",
       noTitle: "Що роблю я (не в адмінці)",
-      noSubtitle: "Ціна рахується індивідуально після брифу — залежить від обсягу.",
+      noSubtitle: "Фіксовані доповнення — з ціною в списку; решта — індивідуально після брифу.",
       yes: [
         "Ціни, назви та описи позицій у меню / асортименті",
         "Заголовки та підзаголовки секцій, що доступні в адмінці",
@@ -71,8 +72,10 @@ window.PORTFOLIO_I18N = {
       ],
       no: [
         "Додаткова мова (+1 переклад) — 500 грн",
+        "Анімації появи блоків при скролі — 500 грн",
         "Додати / прибрати цілу секцію на сторінці",
-        "Змінити структуру блоків, вкладки, нестандартні анімації",
+        "Змінити структуру блоків, вкладки",
+        "Нестандартні анімації (паралакс, складні ефекти)",
         "Правки дизайну поза базовим шаблоном",
         "Додаткові сторінки (каталог, блог, прайс окремо)",
         "Кастомна адмінка або складні інтеграції",
@@ -92,6 +95,7 @@ window.PORTFOLIO_I18N = {
         "Ваші тексти, фото, лого та власна палітра",
         "2 мови на вибір (входять у базовий пакет)",
         "Адаптив (телефон / планшет / ПК)",
+        "Плавний скрол до секцій і анімація бургер-меню",
         "Панель керування контентом (адмінка)",
         "Форма заявки на сайті",
         "Деплой на ваш домен + допомога з налаштуванням",
@@ -115,6 +119,7 @@ window.PORTFOLIO_I18N = {
       extrasLead: "Точну суму називаю після брифу. Нижче — щоб було зрозуміло, від чого залежить ціна.",
       extras: [
         { title: "Додаткова мова (+1 переклад)", price: "500 грн" },
+        { title: "Анімації появи блоків при скролі", price: "500 грн" },
         { title: "Додаткова секція / вкладка", price: "індивідуально" },
         { title: "Додаткові сторінки", price: "індивідуально" },
         { title: "Правки дизайну поза базою", price: "індивідуально" },
@@ -200,7 +205,8 @@ window.PORTFOLIO_I18N = {
       gymDesc: "Позиции меню, тренеры во вкладках, направления, график работы. Графит + жёлтый акцент.",
       openSite: "Открыть сайт",
       admin: "Админка",
-      tagAnim: "Анимации",
+      tagAnim: "Scroll-анимации",
+      tagAnimNote: "доп. опция · в демо включено",
       tagTabs: "Вкладки"
     },
     how: {
@@ -219,7 +225,7 @@ window.PORTFOLIO_I18N = {
       yesTitle: "Что вы меняете сами",
       yesSubtitle: "Через админку (вход через GitHub). Изменения появляются на сайте за 1–2 минуты.",
       noTitle: "Что делаю я (не в админке)",
-      noSubtitle: "Цена считается индивидуально после брифа — зависит от объёма.",
+      noSubtitle: "Фиксированные дополнения — с ценой в списке; остальное — индивидуально после брифа.",
       yes: [
         "Цены, названия и описания позиций в меню / ассортименте",
         "Заголовки и подзаголовки секций, доступных в админке",
@@ -230,8 +236,10 @@ window.PORTFOLIO_I18N = {
       ],
       no: [
         "Дополнительный язык (+1 перевод) — 500 грн",
+        "Анимации появления блоков при скролле — 500 грн",
         "Добавить / убрать целую секцию на странице",
-        "Изменить структуру блоков, вкладки, нестандартные анимации",
+        "Изменить структуру блоков, вкладки",
+        "Нестандартные анимации (параллакс, сложные эффекты)",
         "Правки дизайна вне базового шаблона",
         "Дополнительные страницы (каталог, блог, прайс отдельно)",
         "Кастомная админка или сложные интеграции",
@@ -251,6 +259,7 @@ window.PORTFOLIO_I18N = {
         "Ваши тексты, фото, лого и собственная палитра",
         "2 языка на выбор (входят в базовый пакет)",
         "Адаптив (телефон / планшет / ПК)",
+        "Плавный скролл к секциям и анимация бургер-меню",
         "Панель управления контентом (админка)",
         "Форма заявки на сайте",
         "Деплой на ваш домен + помощь с настройкой",
@@ -274,6 +283,7 @@ window.PORTFOLIO_I18N = {
       extrasLead: "Точную сумму называю после брифа. Ниже — чтобы было понятно, от чего зависит цена.",
       extras: [
         { title: "Дополнительный язык (+1 перевод)", price: "500 грн" },
+        { title: "Анимации появления блоков при скролле", price: "500 грн" },
         { title: "Дополнительная секция / вкладка", price: "индивидуально" },
         { title: "Дополнительные страницы", price: "индивидуально" },
         { title: "Правки дизайна вне базы", price: "индивидуально" },
@@ -359,7 +369,8 @@ window.PORTFOLIO_I18N = {
       gymDesc: "Menu items, trainers in tabs, classes, opening hours. Graphite + yellow accent.",
       openSite: "Open site",
       admin: "Admin",
-      tagAnim: "Animations",
+      tagAnim: "Scroll animations",
+      tagAnimNote: "add-on · enabled in demos",
       tagTabs: "Tabs"
     },
     how: {
@@ -378,7 +389,7 @@ window.PORTFOLIO_I18N = {
       yesTitle: "What you edit yourself",
       yesSubtitle: "Via the admin panel (GitHub login). Changes appear on the site in 1–2 minutes.",
       noTitle: "What I handle (not in admin)",
-      noSubtitle: "Quoted individually after the brief — depends on scope.",
+      noSubtitle: "Fixed add-ons are priced in the list; everything else is quoted after the brief.",
       yes: [
         "Prices, names, and descriptions in the menu / catalog",
         "Section headings and subheadings available in admin",
@@ -389,8 +400,10 @@ window.PORTFOLIO_I18N = {
       ],
       no: [
         "Extra language (+1 translation) — $15",
+        "Scroll reveal animations — $15",
         "Add / remove a full page section",
-        "Change block structure, tabs, custom animations",
+        "Change block structure, tabs",
+        "Custom animations (parallax, complex effects)",
         "Design changes beyond the base template",
         "Extra pages (catalog, blog, separate price list)",
         "Custom admin or complex integrations",
@@ -410,6 +423,7 @@ window.PORTFOLIO_I18N = {
         "Your copy, photos, logo, and custom color palette",
         "2 languages of your choice (included in base)",
         "Responsive (phone / tablet / desktop)",
+        "Smooth scroll to sections and burger menu animation",
         "Content admin panel",
         "Contact form on the site",
         "Deploy on your domain + setup help",
@@ -433,6 +447,7 @@ window.PORTFOLIO_I18N = {
       extrasLead: "Exact pricing after the brief. Below — what affects the quote.",
       extras: [
         { title: "Extra language (+1 translation)", price: "$15" },
+        { title: "Scroll reveal animations", price: "$15" },
         { title: "Extra section / tab", price: "custom quote" },
         { title: "Additional pages", price: "custom quote" },
         { title: "Design changes beyond base", price: "custom quote" },

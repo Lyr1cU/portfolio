@@ -487,6 +487,12 @@ img {
   font-size: 0.9375rem;
 }
 
+.work-card__note {
+  margin: -0.35rem 0 1rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 .tags {
   display: flex;
   flex-wrap: wrap;
