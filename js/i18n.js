@@ -84,7 +84,7 @@ window.PORTFOLIO_I18N = {
     },
     pricing: {
       title: "Ціна",
-      subtitle: "Один зрозумілий базовий пакет. Усе, що виходить за його межі — рахую після брифу. Першим клієнтам можлива знижка за відгук.",
+      subtitle: "Один зрозумілий базовий пакет. Усе, що виходить за його межі — рахую після брифу.",
       baseLabel: "Основний оффер",
       baseTitle: "Базовий шаблон",
       basePrice: "12 500",
@@ -248,7 +248,7 @@ window.PORTFOLIO_I18N = {
     },
     pricing: {
       title: "Цена",
-      subtitle: "Один понятный базовый пакет. Всё, что выходит за его рамки — считаю после брифа. Первым клиентам возможна скидка за отзыв.",
+      subtitle: "Один понятный базовый пакет. Всё, что выходит за его рамки — считаю после брифа.",
       baseLabel: "Основной оффер",
       baseTitle: "Базовый шаблон",
       basePrice: "12 500",
@@ -412,7 +412,7 @@ window.PORTFOLIO_I18N = {
     },
     pricing: {
       title: "Pricing",
-      subtitle: "One clear base package. Anything beyond it is quoted after the brief. Discount possible for early clients who leave a review.",
+      subtitle: "One clear base package. Anything beyond it is quoted after the brief.",
       baseLabel: "Main offer",
       baseTitle: "Base template",
       basePrice: "330",
