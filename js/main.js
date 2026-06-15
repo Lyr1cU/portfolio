@@ -88,6 +88,23 @@
       priceCurrency.textContent = t.pricing.baseCurrency;
     }
 
+    var extendedPriceValue = document.getElementById("extended-price-value");
+    var extendedPriceCurrency = document.getElementById("extended-price-currency");
+    var extendedCompare = document.getElementById("extended-price-compare");
+    var extendedCompareCurrency = document.getElementById("extended-compare-currency");
+    if (extendedPriceValue && t.pricing) {
+      extendedPriceValue.textContent = t.pricing.extendedPrice;
+    }
+    if (extendedPriceCurrency && t.pricing) {
+      extendedPriceCurrency.textContent = t.pricing.extendedCurrency;
+    }
+    if (extendedCompare && t.pricing) {
+      extendedCompare.textContent = t.pricing.extendedCompare;
+    }
+    if (extendedCompareCurrency && t.pricing) {
+      extendedCompareCurrency.textContent = t.pricing.extendedCurrency;
+    }
+
     document.querySelectorAll(".lang-switch__btn").forEach(function (btn) {
       var active = btn.getAttribute("data-lang") === lang;
       btn.classList.toggle("is-active", active);

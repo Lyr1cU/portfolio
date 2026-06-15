@@ -645,6 +645,28 @@ img {
   font-size: 1.25rem;
 }
 
+.package--bundle .package__label {
+  background: #059669;
+}
+
+.package__compare {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.package__compare s {
+  margin-left: 0.35rem;
+  color: #9ca3af;
+}
+
+.package__save {
+  margin: 0.15rem 0 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: #059669;
+}
+
 .package__price {
   margin: 0;
   font-size: 0.9375rem;

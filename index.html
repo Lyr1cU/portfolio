@@ -193,11 +193,11 @@
       <div class="container">
         <div class="section__head">
           <h2 data-i18n="pricing.title">Ціна</h2>
-          <p data-i18n="pricing.subtitle">Один зрозумілий базовий пакет. Усе, що виходить за його межі — рахую після брифу.</p>
+          <p data-i18n="pricing.subtitle">Два фіксовані пакети — базовий для більшості бізнесів або розширений з доповненнями вигідніше.</p>
         </div>
-        <div class="packages packages--two">
-          <article class="package package--featured">
-            <span class="package__label" data-i18n="pricing.baseLabel">Основний оффер</span>
+        <div class="packages">
+          <article class="package">
+            <span class="package__label" data-i18n="pricing.baseLabel">Для кав'ярень та салонів</span>
             <h3 data-i18n="pricing.baseTitle">Базовий шаблон</h3>
             <p class="package__price">
               <strong id="base-price-value">12 500</strong>
@@ -205,7 +205,25 @@
             </p>
             <p class="package__note" data-i18n="pricing.baseNote">фіксована ціна за стандартний обсяг</p>
             <ul data-i18n-list="pricing.baseItems"></ul>
-            <a class="btn btn--primary btn--block" href="#contact" data-i18n="pricing.baseCta">Замовити</a>
+            <a class="btn btn--ghost btn--block" href="#contact" data-i18n="pricing.baseCta">Замовити</a>
+          </article>
+
+          <article class="package package--featured package--bundle">
+            <span class="package__label" data-i18n="pricing.extendedLabel">−10%</span>
+            <h3 data-i18n="pricing.extendedTitle">Розширений пакет</h3>
+            <p class="package__compare">
+              <span data-i18n="pricing.extendedComparePrefix">окремо</span>
+              <s id="extended-price-compare">16 250</s>
+              <span id="extended-compare-currency">грн</span>
+            </p>
+            <p class="package__price">
+              <strong id="extended-price-value">14 650</strong>
+              <span id="extended-price-currency">грн</span>
+            </p>
+            <p class="package__save" data-i18n="pricing.extendedSaveNote">економія 1 600 грн · −10%</p>
+            <p class="package__note" data-i18n="pricing.extendedNote">усі доповнення нижче вже включені</p>
+            <ul data-i18n-list="pricing.extendedItems"></ul>
+            <a class="btn btn--primary btn--block" href="#contact" data-i18n="pricing.extendedCta">Замовити пакет</a>
           </article>
 
           <article class="package">
