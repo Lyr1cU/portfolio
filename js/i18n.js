@@ -85,7 +85,6 @@ window.PORTFOLIO_I18N = {
     pricing: {
       title: "Ціна",
       subtitle: "Два фіксовані пакети — базовий для більшості бізнесів або розширений з доповненнями вигідніше.",
-      baseLabel: "Для кав'ярень та салонів",
       baseTitle: "Базовий шаблон",
       basePrice: "12 500",
       baseCurrency: "грн",
@@ -265,7 +264,6 @@ window.PORTFOLIO_I18N = {
     pricing: {
       title: "Цена",
       subtitle: "Два фиксированных пакета — базовый для большинства бизнесов или расширенный с дополнениями выгоднее.",
-      baseLabel: "Для кофеен и салонов",
       baseTitle: "Базовый шаблон",
       basePrice: "12 500",
       baseCurrency: "грн",
@@ -445,7 +443,6 @@ window.PORTFOLIO_I18N = {
     pricing: {
       title: "Pricing",
       subtitle: "Two fixed packages — base for most businesses, or extended with add-ons bundled at a discount.",
-      baseLabel: "For cafés & salons",
       baseTitle: "Base template",
       basePrice: "330",
       baseCurrency: "USD",
