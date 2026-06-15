@@ -73,11 +73,11 @@ window.PORTFOLIO_I18N = {
       no: [
         "Додаткова мова (+1 переклад) — 500 грн",
         "Анімації появи блоків при скролі — 500 грн",
-        "Додати / прибрати цілу секцію на сторінці",
-        "Змінити структуру блоків, вкладки",
+        "Додаткова секція / вкладка — 500 грн",
+        "Додаткова сторінка — 750 грн",
+        "Правки дизайну поза базовим шаблоном — індивідуально",
+        "Об'єм контенту (велике меню, 30+ позицій) — індивідуально",
         "Нестандартні анімації (паралакс, складні ефекти)",
-        "Правки дизайну поза базовим шаблоном",
-        "Додаткові сторінки (каталог, блог, прайс окремо)",
         "Кастомна адмінка або складні інтеграції",
         "Оплата на сайті, особистий кабінет"
       ]
@@ -92,7 +92,7 @@ window.PORTFOLIO_I18N = {
       baseNote: "фіксована ціна за стандартний обсяг",
       baseItems: [
         "One-page на перевіреній структурі (як у демо)",
-        "Ваші тексти, фото, лого та власна палітра",
+        "Ваші тексти, фото, лого та власна палітра (надає клієнт; за потреби — заглушки)",
         "2 мови на вибір (входять у базовий пакет)",
         "Адаптив (телефон / планшет / ПК)",
         "Плавний скрол до секцій і анімація бургер-меню",
@@ -106,9 +106,8 @@ window.PORTFOLIO_I18N = {
       customPrice: "індивідуально",
       customNote: "ціна залежить від того, що саме потрібно",
       customItems: [
-        "Додаткова секція, вкладка, блок",
         "Правки структури або дизайну поза шаблоном",
-        "Додаткові сторінки",
+        "Об'єм контенту (велике меню, багато позицій)",
         "Нестандартні інтеграції (CRM, складні форми)",
         "Кастомна адмінка або бекенд",
         "Унікальний дизайн «з нуля»"
@@ -116,14 +115,14 @@ window.PORTFOLIO_I18N = {
       customHint: "Напишіть, що потрібно — надішлю оцінку до старту робіт.",
       customCta: "Обговорити",
       extrasTitle: "Приклади доробок (орієнтовно)",
-      extrasLead: "Точну суму називаю після брифу. Нижче — щоб було зрозуміло, від чого залежить ціна.",
+      extrasLead: "Фіксовані доповнення — з ціною нижче; решта — після брифу.",
       extras: [
         { title: "Додаткова мова (+1 переклад)", price: "500 грн" },
         { title: "Анімації появи блоків при скролі", price: "500 грн" },
-        { title: "Додаткова секція / вкладка", price: "індивідуально" },
-        { title: "Додаткові сторінки", price: "індивідуально" },
+        { title: "Додаткова секція / вкладка", price: "500 грн" },
+        { title: "Додаткова сторінка", price: "750 грн" },
         { title: "Правки дизайну поза базою", price: "індивідуально" },
-        { title: "Контент (тексти / фото)", price: "за домовленістю" }
+        { title: "Об'єм контенту (велике меню, 30+ позицій)", price: "індивідуально" }
       ],
       individual: "індивідуально",
       negotiable: "за домовленістю"
@@ -237,11 +236,11 @@ window.PORTFOLIO_I18N = {
       no: [
         "Дополнительный язык (+1 перевод) — 500 грн",
         "Анимации появления блоков при скролле — 500 грн",
-        "Добавить / убрать целую секцию на странице",
-        "Изменить структуру блоков, вкладки",
+        "Дополнительная секция / вкладка — 500 грн",
+        "Дополнительная страница — 750 грн",
+        "Правки дизайна вне базового шаблона — индивидуально",
+        "Объём контента (большое меню, 30+ позиций) — индивидуально",
         "Нестандартные анимации (параллакс, сложные эффекты)",
-        "Правки дизайна вне базового шаблона",
-        "Дополнительные страницы (каталог, блог, прайс отдельно)",
         "Кастомная админка или сложные интеграции",
         "Оплата на сайте, личный кабинет"
       ]
@@ -256,7 +255,7 @@ window.PORTFOLIO_I18N = {
       baseNote: "фиксированная цена за стандартный объём",
       baseItems: [
         "One-page на проверенной структуре (как в демо)",
-        "Ваши тексты, фото, лого и собственная палитра",
+        "Ваши тексты, фото, лого и собственная палитра (предоставляет клиент; при необходимости — заглушки)",
         "2 языка на выбор (входят в базовый пакет)",
         "Адаптив (телефон / планшет / ПК)",
         "Плавный скролл к секциям и анимация бургер-меню",
@@ -270,9 +269,8 @@ window.PORTFOLIO_I18N = {
       customPrice: "индивидуально",
       customNote: "цена зависит от того, что именно нужно",
       customItems: [
-        "Дополнительная секция, вкладка, блок",
         "Правки структуры или дизайна вне шаблона",
-        "Дополнительные страницы",
+        "Объём контента (большое меню, много позиций)",
         "Нестандартные интеграции (CRM, сложные формы)",
         "Кастомная админка или бэкенд",
         "Уникальный дизайн «с нуля»"
@@ -280,14 +278,14 @@ window.PORTFOLIO_I18N = {
       customHint: "Напишите, что нужно — пришлю оценку до старта работ.",
       customCta: "Обсудить",
       extrasTitle: "Примеры доработок (ориентировочно)",
-      extrasLead: "Точную сумму называю после брифа. Ниже — чтобы было понятно, от чего зависит цена.",
+      extrasLead: "Фиксированные дополнения — с ценой ниже; остальное — после брифа.",
       extras: [
         { title: "Дополнительный язык (+1 перевод)", price: "500 грн" },
         { title: "Анимации появления блоков при скролле", price: "500 грн" },
-        { title: "Дополнительная секция / вкладка", price: "индивидуально" },
-        { title: "Дополнительные страницы", price: "индивидуально" },
+        { title: "Дополнительная секция / вкладка", price: "500 грн" },
+        { title: "Дополнительная страница", price: "750 грн" },
         { title: "Правки дизайна вне базы", price: "индивидуально" },
-        { title: "Контент (тексты / фото)", price: "по договорённости" }
+        { title: "Объём контента (большое меню, 30+ позиций)", price: "индивидуально" }
       ],
       individual: "индивидуально",
       negotiable: "по договорённости"
@@ -401,11 +399,11 @@ window.PORTFOLIO_I18N = {
       no: [
         "Extra language (+1 translation) — $15",
         "Scroll reveal animations — $15",
-        "Add / remove a full page section",
-        "Change block structure, tabs",
+        "Extra section / tab — $15",
+        "Additional page — $20",
+        "Design changes beyond the base template — custom quote",
+        "Content volume (large menu, 30+ items) — custom quote",
         "Custom animations (parallax, complex effects)",
-        "Design changes beyond the base template",
-        "Extra pages (catalog, blog, separate price list)",
         "Custom admin or complex integrations",
         "On-site payments, user accounts"
       ]
@@ -420,7 +418,7 @@ window.PORTFOLIO_I18N = {
       baseNote: "fixed price for the standard scope",
       baseItems: [
         "One-page site on the proven structure (see demos)",
-        "Your copy, photos, logo, and custom color palette",
+        "Your copy, photos, logo, and custom color palette (from the client; placeholders if needed)",
         "2 languages of your choice (included in base)",
         "Responsive (phone / tablet / desktop)",
         "Smooth scroll to sections and burger menu animation",
@@ -434,9 +432,8 @@ window.PORTFOLIO_I18N = {
       customPrice: "custom quote",
       customNote: "price depends on what you need",
       customItems: [
-        "Extra section, tab, or block",
         "Structure or design changes beyond the template",
-        "Additional pages",
+        "Content volume (large menu, many items)",
         "Non-standard integrations (CRM, complex forms)",
         "Custom admin or backend",
         "Fully unique design from scratch"
@@ -444,14 +441,14 @@ window.PORTFOLIO_I18N = {
       customHint: "Tell me what you need — I'll send an estimate before we start.",
       customCta: "Discuss",
       extrasTitle: "Add-on examples (approximate)",
-      extrasLead: "Exact pricing after the brief. Below — what affects the quote.",
+      extrasLead: "Fixed add-ons are priced below; everything else is quoted after the brief.",
       extras: [
         { title: "Extra language (+1 translation)", price: "$15" },
         { title: "Scroll reveal animations", price: "$15" },
-        { title: "Extra section / tab", price: "custom quote" },
-        { title: "Additional pages", price: "custom quote" },
+        { title: "Extra section / tab", price: "$15" },
+        { title: "Additional page", price: "$20" },
         { title: "Design changes beyond base", price: "custom quote" },
-        { title: "Content (copy / photos)", price: "negotiable" }
+        { title: "Content volume (large menu, 30+ items)", price: "custom quote" }
       ],
       individual: "custom quote",
       negotiable: "negotiable"
