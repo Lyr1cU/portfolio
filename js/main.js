@@ -56,6 +56,10 @@
       document.title = t.meta.title;
       var desc = document.querySelector('meta[name="description"]');
       if (desc) desc.setAttribute("content", t.meta.description);
+      var ogTitle = document.querySelector('meta[property="og:title"]');
+      var ogDesc = document.querySelector('meta[property="og:description"]');
+      if (ogTitle) ogTitle.setAttribute("content", t.meta.title);
+      if (ogDesc) ogDesc.setAttribute("content", t.meta.description);
     }
 
     document.querySelectorAll("[data-i18n]").forEach(function (el) {

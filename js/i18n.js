@@ -1,8 +1,8 @@
 window.PORTFOLIO_I18N = {
   uk: {
     meta: {
-      title: "Artem.dev — сайти для малого бізнесу",
-      description: "Односторінкові сайти для кафе, залів, салонів. 2 мови в базі, +1 переклад — фіксована ціна. Власний домен, панель керування. Дніпро."
+      title: "Артем Толстік — сайти для малого бізнесу",
+      description: "Сайти для малого бізнесу з адмінкою, двома мовами та адаптивом. Приклади робіт і пакети — на сайті. Дніпро."
     },
     nav: {
       aria: "Головна навігація",
@@ -180,8 +180,8 @@ window.PORTFOLIO_I18N = {
 
   ru: {
     meta: {
-      title: "Artem.dev — сайты для малого бизнеса",
-      description: "Одностраничные сайты для кафе, залов, салонов. 2 языка в базе, +1 перевод — фиксированная цена. Свой домен, панель управления. Днепр."
+      title: "Артем Толстік — сайты для малого бизнеса",
+      description: "Сайты для малого бизнеса с админкой, двумя языками и адаптивом. Примеры работ и пакеты — на сайте. Днепр."
     },
     nav: {
       aria: "Главная навигация",
@@ -359,8 +359,8 @@ window.PORTFOLIO_I18N = {
 
   en: {
     meta: {
-      title: "Artem.dev — websites for small business",
-      description: "One-page sites for cafés, gyms, salons. 2 languages included, +1 translation at a fixed add-on. Custom domain, content admin. Dnipro, Ukraine."
+      title: "Artem Tolstik — websites for small business",
+      description: "Websites for small business with admin panel, two languages, and responsive layout. Examples and packages on the site. Dnipro."
     },
     nav: {
       aria: "Main navigation",
